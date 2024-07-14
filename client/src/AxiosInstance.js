@@ -1,7 +1,7 @@
 import Axios from "axios";
 
 const axiosInstance = Axios.create({
-  baseURL: "http://localhost:8000/api",
+  baseURL: "https://taskmanagerapp-4xqk.onrender.com",
   timeout: 5000,
   headers: {
     "Content-Type": "application/json",
