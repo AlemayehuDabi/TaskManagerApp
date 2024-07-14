@@ -1,0 +1,199 @@
+.main-side-bar {
+  height: 100vh;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  width: 15rem;
+}
+.logo-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  margin-bottom: 2rem;
+}
+.logo {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  height: 15rem;
+  width: 11rem;
+  margin-left: 1rem;
+  margin-bottom: 10rem;
+}
+.icon {
+  margin-right: 10px;
+}
+.active {
+  font-weight: bold;
+  color: red;
+}
+.sidebar-icons {
+  color: black;
+  width: 11rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.footer-side-bar {
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .main-side-bar {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    width: 3rem;
+  }
+  .logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    margin-bottom: 2rem;
+  }
+  .logo {
+    display: none;
+  }
+
+  .sidebar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 15rem;
+    margin-left: 0.5rem;
+    margin-bottom: 13rem;
+  }
+  .icon {
+    margin-right: 10px;
+    font-size: 2rem;
+  }
+  .active {
+    font-weight: bold;
+  }
+  .sidebar-icons {
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  .sidebar-icons:hover {
+  }
+
+  .icon-text {
+    display: none;
+  }
+
+  .footer-side-bar {
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .main-side-bar {
+    width: 15rem;
+  }
+
+  .sidebar-content {
+    margin-left: 1rem;
+  }
+  .sidebar-icons {
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  .logo {
+    margin-left: 3rem;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+  }
+  .footer-side-bar {
+    margin-top: 15rem;
+    margin-left: 5rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .main-side-bar {
+    width: 20rem;
+  }
+  .icon-text {
+    display: none;
+  }
+
+  .sidebar-content {
+    margin-top: 9rem;
+    margin-left: 2rem;
+    padding-left: 3rem;
+    margin-bottom: 27rem;
+  }
+
+  .sidebar-icons {
+    font-size: 3.4rem;
+    color: #000;
+    margin-bottom: 7rem;
+  }
+
+  .logo {
+    width: 8rem;
+    height: 8rem;
+    margin-left: 1rem;
+    margin-top: 5rem;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo {
+    margin-top: 4rem;
+    width: 6rem;
+    height: 6rem;
+  }
+  .icon {
+    font-size: 2.5rem;
+  }
+  .icon-text {
+    display: none;
+  }
+  .sidebar-content {
+    margin-top: 7rem;
+    margin-left: 2rem;
+  }
+  .sidebar-icons {
+    color: #000;
+    padding: 2rem;
+    margin-bottom: 4rem;
+  }
+  .main-side-bar {
+    width: 10rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sidebar-icons:hover {
+    color: white;
+    background-color: rgba(0, 127, 115, 0.9);
+  }
+}

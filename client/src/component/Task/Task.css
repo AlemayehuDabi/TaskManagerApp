@@ -1,0 +1,31 @@
+.fs-12 {
+  font-size: 12px;
+}
+
+.fs-16 {
+  font-size: 16px;
+}
+
+.fs-24 {
+  font-size: 24px;
+}
+
+.col-main-home {
+  cursor: pointer;
+}
+
+.task-container {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 20rem));
+  gap: 20px;
+  background-color: #f5fbff;
+  height: 100%;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .task-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 25rem));
+  }
+}

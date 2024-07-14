@@ -1,0 +1,93 @@
+.custom-modal .modal-dialog {
+  height: 500px;
+  width: 500px; /* Set your desired height here */
+}
+
+.custom-modal .modal-content {
+  height: 100%;
+}
+
+.below-toggle-profile {
+  display: none;
+}
+
+.row-main {
+  width: 100%;
+  height: 5.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #fff;
+}
+
+.brand-nav {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 22px;
+}
+
+@media (max-width: 575.98px) {
+  .row-man .brand-nav {
+    font-size: 25px;
+  }
+  .toggler {
+    height: 3rem;
+    width: 4rem;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .brand-nav {
+    font-size: 2.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .row-main {
+    height: 12rem;
+  }
+
+  .brand-nav {
+    font-size: 2.8rem;
+  }
+
+  .toggler {
+    height: 4rem;
+    width: 5rem;
+  }
+
+  .search-navbar {
+    height: 3.5rem;
+  }
+  .search-text {
+    font-size: 1.7rem;
+  }
+  .search-button {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .search-icon-navbar {
+    font-size: 1.9rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .row-main {
+    height: 11rem;
+  }
+  .brand-nav {
+    font-size: 2.5rem;
+  }
+  .search-navbar {
+    height: 3.5rem;
+  }
+  .search-text {
+    font-size: 1.7rem;
+  }
+  .search-button {
+    width: 4rem;
+    height: 4rem;
+  }
+  .search-icon-navbar {
+    font-size: 2rem;
+  }
+}

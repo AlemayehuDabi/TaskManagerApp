@@ -1,0 +1,117 @@
+.tag-input {
+  width: 7rem;
+  height: 2rem;
+  align-self: center;
+  padding: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+}
+.tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.tag-item {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 3px;
+  padding: 0px 10px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.tag-close-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-left: 5px;
+}
+
+.tag-cont {
+  display: flex;
+  align-items: center;
+}
+
+.tag-button {
+  background-color: rgb(0, 127, 115) !important;
+  border: none;
+  padding: 2.5px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+@media (max-width: 575.98px) {
+  .tag-input {
+    width: 10rem;
+    height: 3rem;
+    font-size: 25px;
+  }
+
+  .tag-button {
+    height: 3rem;
+    width: 3rem;
+  }
+
+  .tag-item {
+    height: 3rem;
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .tag-input {
+    width: 15rem;
+    height: 3.3rem;
+    font-size: 30px;
+  }
+  .tag-button {
+    height: 3.3rem;
+    width: 3.3rem;
+  }
+  .tag-item {
+    height: 3.6rem;
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .tag-input {
+    width: 17rem;
+    height: 4rem;
+    font-size: 35px;
+  }
+  .tag-button {
+    height: 4rem;
+    width: 4rem;
+  }
+  .tag-item {
+    height: 4.2rem;
+    font-size: 33px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .tag-input {
+    width: 15rem;
+    height: 4rem;
+    font-size: 35px;
+  }
+  .tag-button {
+    height: 4rem;
+    width: 4rem;
+    font-size: 30px;
+  }
+  .tag-item {
+    height: 4.2rem;
+    font-size: 33px;
+  }
+
+  .tag-icon {
+    font-size: 2.3rem;
+  }
+}

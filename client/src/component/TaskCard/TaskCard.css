@@ -1,0 +1,134 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.cards {
+  height: 15rem;
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.cards:hover {
+  box-shadow: -20px 20px 20px rgba(0, 0, 0, 0.2);
+}
+
+.tags-cont {
+  display: flex;
+  flex-direction: column;
+}
+
+.pin-task {
+  font-size: 1.6rem;
+}
+
+.date-task {
+  font-size: 15px;
+  color: lightgray;
+}
+
+.tags-task {
+  font-size: 15px;
+  text-align: start;
+}
+.completed {
+  font-size: 20px;
+}
+
+.delete-task {
+  color: rgb(0, 127, 115);
+  font-size: 20px;
+}
+
+@media (max-width: 575.98px) {
+  .title-task,
+  .delete-task,
+  .completed {
+    font-size: 25px;
+  }
+
+  .cards {
+    width: 20rem;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .pin-task {
+    font-size: 2.2rem;
+  }
+  .tags-task,
+  .date-task {
+    font-size: 20px;
+  }
+  .content-task {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cards {
+    height: 20rem;
+    width: 23rem;
+  }
+
+  .title-task,
+  .delete-task,
+  .completed {
+    font-size: 2.4rem;
+  }
+
+  .pin-task {
+    font-size: 2.8rem;
+  }
+
+  .tags-task,
+  .date-task {
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .cards {
+    height: 25rem;
+    width: 30rem;
+  }
+
+  .title-task,
+  .delete-task,
+  .completed {
+    font-size: 2.8rem;
+  }
+
+  .pin-task {
+    font-size: 3rem;
+  }
+
+  .tags-task,
+  .date-task {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .cards {
+    height: 30rem;
+    width: 25rem;
+  }
+
+  .title-task,
+  .delete-task,
+  .completed {
+    font-size: 2.9rem;
+  }
+  .pin-task {
+    font-size: 3rem;
+  }
+
+  .tags-task,
+  .date-task {
+    font-size: 30px;
+  }
+
+  .content-task {
+    font-size: 2.4rem;
+  }
+}
