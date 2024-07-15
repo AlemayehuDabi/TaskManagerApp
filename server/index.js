@@ -34,6 +34,14 @@ mongoose
     console.error("Failed to connect to MongoDB", err);
   });
 
+app.use((req, res, next) => {
+  res.header("Access-Control-Allow-Origin", process.env.CORS_ORIGIN); // Specify the origin(s) that you want to allow
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept, Authorization");
+  res.header("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE, OPTIONS");
+  res.header("Access-Control-Allow-Credentials", true);
+  next();
+});
+
 // server listener
 app.listen(port, (err) => {
   if (err) throw err;
