@@ -54,6 +54,7 @@ const signUp = async (req, res) => {
       msg: "successfully registered",
     });
   } catch (err) {
+    console.log(err)
     return res.status(500).json({
       error: true,
       msg: "Server error",
