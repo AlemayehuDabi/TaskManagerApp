@@ -14,10 +14,11 @@ app.use(express.json());
 // cors connector
 app.use(
   cors({
-    origin: process.env.CORS_ORIGIN,
+    origin: "https://taskmanagerapp-client.onrender.com",
     credentials: true,
   })
 );
+
 
 app.use("/api/user/", userRouter);
 
